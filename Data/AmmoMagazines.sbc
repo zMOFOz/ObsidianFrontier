@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  	<AmmoMagazine>
+	  <Id>
+		<TypeId>AmmoMagazine</TypeId>
+		<SubtypeId>OKI50mmAmmo</SubtypeId>
+	  </Id>
+	  <DisplayName>50x450mm AP Shells</DisplayName>
+	  <Icon>icons\OKI50mmAGAmmo.dds</Icon>
+	  <Size>
+		<X>0.05</X>
+		<Y>0.05</Y>
+		<Z>0.05</Z>
+	  </Size>
+	  <Mass>70</Mass>
+	  <Volume>20</Volume>
+	  <Model>models\Ammo\OKI50mmAmmo.mwm</Model>
+	  <PhysicalMaterial>Ammo</PhysicalMaterial>
+	  <Capacity>4</Capacity>
+	  <AmmoDefinitionId Subtype="OKI50mmAmmoPars" />
+	</AmmoMagazine>
+  <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI230mmBatAmmo</SubtypeId>
+      </Id>
+      <DisplayName>230x920mm HV Shell</DisplayName>
+      <Icon>icons\HV.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>450</Mass>
+      <Volume>240</Volume>
+      <Model>models\Ammo\OKI230mmAmmo.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="OKI230mmAmmoBatPars" />
+    </AmmoMagazine>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>NATO_5p56x45mm</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_5p56x45mm</DisplayName>
+      <Description>DummyDescription</Description>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.05</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>0.45</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <Capacity>30</Capacity>
+      <AmmoDefinitionId Subtype="SmallCaliber" />
+    </AmmoMagazine>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>NATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <Capacity>140</Capacity>
+      <AmmoDefinitionId Subtype="LargeCaliber" />
+    </AmmoMagazine>
+ <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>LongRange30mm</SubtypeId>
+      </Id>
+      <DisplayName>Long Range</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\LongRange30mm.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <Capacity>140</Capacity>
+      <AmmoDefinitionId Subtype="LongRange30mm" />
+    </AmmoMagazine>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>DepletedUraniumRounds</SubtypeId>
+      </Id>
+      <DisplayName>Depleted Uranium</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\DepletedUraniumBox.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>160</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <Capacity>25</Capacity>
+      <AmmoDefinitionId Subtype="DepletedUraniumRounds" />
+    </AmmoMagazine>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Missile200mm</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Missile200mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Size>
+        <X>1.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>60</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Missile" />
+    </AmmoMagazine>
+   
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>SiegeMissile</SubtypeId>
+      </Id>
+      <DisplayName>Siege Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Siege.dds</Icon>
+      <Size>
+        <X>1.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>225</Mass>
+      <Volume>300</Volume>
+      <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="SiegeMissile" />
+    </AmmoMagazine>
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>OKI230mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>230x920mm DUP Shell</DisplayName>
+      <Icon>icons\OKI230mmBCAmmo.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>450</Mass>
+      <Volume>240</Volume>
+      <Model>models\Ammo\OKI230mmAmmo.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="OKI230mmAmmoPars" />
+    </AmmoMagazine>
+
+
+
+  </AmmoMagazines>
+</Definitions>

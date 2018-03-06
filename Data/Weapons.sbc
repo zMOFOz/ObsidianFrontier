@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+  <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmAG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="360" ShootSoundName="OKI50mmshot" ShotsInBurst="4"/>
+      <ShotSoundName>OKI50mmshot</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>2000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+	  <ReloadTime>500</ReloadTime>
+    </Weapon>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI50mmSG</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="90" ShootSoundName="OKI50mmshot1" ShotsInBurst="1"/>
+      <ShotSoundName>OKI50mmshot1</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>2000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>25</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI50mmAmmo" />
+      </AmmoMagazines>
+	  <ReloadTime>500</ReloadTime>
+    </Weapon>
+   <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI230mmBAT</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="500" ShootSoundName="OKI230mmshot1" ShotsInBurst="4"/>
+      <ShotSoundName>OKI230mmshot1</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>.8</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI230mmBatAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>3000</ReloadTime>
+    </Weapon>
+<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>SiegeMissileLauncher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="20" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="8" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="SiegeMissile" />
+        </AmmoMagazines>
+      <ReloadTime>9000</ReloadTime>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>EliteSmallGatlingGun</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="700" ShootSoundName="WepShipGatlingShot" ShotsInBurst="300"/>
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>0.2</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="DepletedUraniumRounds" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>LongLargeGatlingTurretV3</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="750" ShootSoundName="OKI23mmshot" ShotsInBurst="360" />
+      <DeviateShotAngle>.05</DeviateShotAngle>
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="LongRange30mm" />
+      </AmmoMagazines>
+      <ReloadTime>1000</ReloadTime>
+    </Weapon>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>OKI230mmBC</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="11" ShootSoundName="OKI230mmshot" ShotsInBurst="1" />
+      <ShotSoundName>OKI230mmshot</ShotSoundName>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>1.4</DeviateShotAngle>
+      <ReleaseTimeAfterFire>10000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="OKI230mmAmmo" />
+      </AmmoMagazines>
+      <ReloadTime>2000</ReloadTime>
+     
+    </Weapon> 
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>SmallMissileLauncher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="30" />
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Missile200mm" />
+      </AmmoMagazines>
+      <ReloadTime>3000</ReloadTime>
+    </Weapon>
+
+   </Weapons>
+</Definitions>

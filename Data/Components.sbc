@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+       <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ReactiveSteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>Reactive Steel Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Reactive_steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>13</Mass>
+      <Volume>4</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>53</Health>
+    </Component>
+  <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SuperComputer</SubtypeId>
+      </Id>
+      <DisplayName>Super Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\super_computer_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+  <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BrawlComputer</SubtypeId>
+      </Id>
+      <DisplayName>Brawl Winner Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\super_computer_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+    </Component>
+  </Components>
+</Definitions>

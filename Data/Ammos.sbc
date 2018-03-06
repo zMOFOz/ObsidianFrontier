@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+  	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI50mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>700</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>800</BackkickForce>
+		<PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>800</ProjectileHitImpulse>
+        <ProjectileMassDamage>300</ProjectileMassDamage>
+        <ProjectileHealthDamage>800</ProjectileHealthDamage>
+	<ProjectileTrailScale>0.75</ProjectileTrailScale>
+	<ProjectileTrailColor x="0.5" y="0.5" z="1.0" />
+	<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI230mmAmmoBatPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>1500</DesiredSpeed>
+        <SpeedVariance>0.15</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>23000</BackkickForce>
+      <IsExplosive>true</IsExplosive>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>200000</ProjectileHitImpulse>
+        <ProjectileMassDamage>18000</ProjectileMassDamage>
+        <ProjectileHealthDamage>1000</ProjectileHealthDamage>
+	<ProjectileTrailScale>.8</ProjectileTrailScale>
+	<ProjectileTrailColor x="0" y=".3" z="1" />
+	<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+       <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>LargeCaliber</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>400</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>50</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.1</ProjectileTrailScale>
+        <ProjectileHitImpulse>185</ProjectileHitImpulse>
+        <ProjectileMassDamage>150</ProjectileMassDamage>
+        <ProjectileHealthDamage>33</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>LongRange30mm</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>3000</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>950</MaxTrajectory>
+        <BackkickForce>300</BackkickForce>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>100</ProjectileHitImpulse>
+        <ProjectileMassDamage>50</ProjectileMassDamage>
+        <ProjectileHealthDamage>555</ProjectileHealthDamage>
+        <ProjectileTrailScale>0.7</ProjectileTrailScale>
+        <ProjectileTrailColor x=".3" y=".3" z="1" />
+        <ProjectileTrailProbability>.5</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+ <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>DepletedUraniumRounds</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>4000</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>625</MaxTrajectory>
+        <BackkickForce>150</BackkickForce>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>850</ProjectileHitImpulse>
+        <ProjectileMassDamage>200</ProjectileMassDamage>
+        <ProjectileHealthDamage>925</ProjectileHealthDamage>
+        <ProjectileTrailScale>.8</ProjectileTrailScale>
+        <ProjectileTrailColor x="0" y=".3" z="0" />
+        <ProjectileTrailProbability>.7</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+   <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Missile</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>200</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>700</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>45</MissileMass>
+        <MissileExplosionRadius>4</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
+        <MissileAcceleration>600</MissileAcceleration>
+        <MissileInitialSpeed>100</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>500</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>SiegeMissile</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>600</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>700</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>700</BackkickForce>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>60</MissileMass>
+        <MissileExplosionRadius>7</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
+        <MissileAcceleration>200</MissileAcceleration>
+        <MissileInitialSpeed>400</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>14000</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+
+  <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>OKI230mmAmmoPars</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0.15</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>23000</BackkickForce>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>100000</ProjectileHitImpulse>
+        <ProjectileMassDamage>9000</ProjectileMassDamage>
+        <ProjectileHealthDamage>1000</ProjectileHealthDamage>
+	<ProjectileTrailScale>1.1</ProjectileTrailScale>
+	<ProjectileTrailColor x="1" y="1" z="1" />
+	<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+
+
+  </Ammos>
+</Definitions>

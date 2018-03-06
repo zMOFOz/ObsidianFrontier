@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <BlueprintClasses>
+ <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Fuel</SubtypeId>
+      </Id>
+      <DisplayName>Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+</BlueprintClasses>
+<GasProperties>
+    <Gas>
+      <Id>
+        <TypeId>MyObjectBuilder_GasProperties</TypeId>
+        <SubtypeId>TrilithiumFuel</SubtypeId>
+      </Id>
+      <EnergyDensity>0.011</EnergyDensity>  <!--.010392 MWh/litres -->
+    </Gas>
+</GasProperties>
+	
+	
+  <BlueprintClassEntries>
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipWelder/TwinWelder" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipWelder/TwinSmallWelder" />
+  	<Entry Class="Components" BlueprintSubtypeId="OKI50mmAmmo" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="OKI50mmAmmo" />
+    <Entry Class="Components" BlueprintSubtypeId="SiegeMissile" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="SiegeMissile" />
+ 	<Entry Class="Components" BlueprintSubtypeId="DepletedUraniumRounds" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="DepletedUraniumRounds" />
+    <Entry Class="Components" BlueprintSubtypeId="LongRange30mm" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="LongRange30mm" />
+	<Entry Class="Components" BlueprintSubtypeId="OKI230mmAmmo" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="OKI230mmAmmo" />
+  	<Entry Class="Components" BlueprintSubtypeId="OKI230mmBatAmmo" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="OKI230mmBatAmmo" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/LargeRefinery" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/SmallRefinery" />
+    <Entry Class="Components" BlueprintSubtypeId="SuperComputer" />
+    <Entry Class="Ingots" BlueprintSubtypeId="ThoriumOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="ThoriumOreToIngot" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LargeBlockLargeDrill" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LargeBlockMediumDrill" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Drill/LargeBlockSmallDrill" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/SmallBlockSmallDrill" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/SmallBlockMediumDrill" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Drill/SmallBlockLargeDrill" />
+	<Entry Class="Components" BlueprintSubtypeId="ReactiveSteelPlate" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeTurboFan_Large" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/SmallTurboFan_Large" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/FuelRefiner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/HCFuelTank" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/LargeTurboFan_Small" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallTurboFan_Small" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/SmallFuelRefiner" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHCFuelTank" />
+    <Entry Class="Fuel" BlueprintSubtypeId="TrilithiumToFuel" />
+  </BlueprintClassEntries>
+</Definitions>

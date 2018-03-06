@@ -1,0 +1,163 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  <!--WEAPONS SMALL SHIP TOOLS-->
+  <!--Thor Armor-->
+  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Thor Heavy Armor</DisplayName>
+      <Name>Super Heavy Armor T3</Name>
+      <ItemIds>
+        <string>CubeBlock/SuperLargeHeavyBlockArmorBlock</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorSlope</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorCorner</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorCornerInv</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorBlock</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorSlope</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorCorner</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorCornerInv</string>
+		<string>BatteryBlock/SuperLargeBlockBatteryBlock</string>
+   </ItemIds>
+    </Category>
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <ItemIds>
+        <string>Drill/LargeBlockLargeDrill</string>
+        <string>Drill/SmallBlockLargeDrill</string>
+        <string>Drill/LargeBlockMediumDrill</string>
+        <string>Drill/SmallBlockMediumDrill</string>
+        <string>Drill/LargeBlockSmallDrill</string>
+        <string>Drill/SmallBlockSmallDrill</string>
+		<string>SmallGatlingGun/EliteSmallGatlingGun</string>
+        <string>SmallMissileLauncher/SiegeLargeMissileLauncher</string>
+      </ItemIds> 
+    </Category>
+   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>WeaponsTools</Name>
+      <ItemIds>
+	    <string>ShipWelder/TwinWelder</string>
+        <string>ShipWelder/TwinSmallWelder</string>
+        <string>Drill/LargeBlockLargeDrill</string>
+        <string>Drill/SmallBlockLargeDrill</string>
+        <string>Drill/LargeBlockMediumDrill</string>
+        <string>Drill/SmallBlockMediumDrill</string>
+        <string>Drill/LargeBlockSmallDrill</string>
+        <string>Drill/SmallBlockSmallDrill</string>
+		<string>LargeGatlingTurret/LongRangeGatlingTurretV3</string>
+        <string>LargeGatlingTurret/OKI230mmBC</string>
+        <string>SmallGatlingGun/EliteSmallGatlingGun</string>
+        <string>SmallMissileLauncher/SiegeLargeMissileLauncher</string>
+		<string>LargeMissileTurret/OKI230mmBAT</string>
+      </ItemIds> 
+    </Category>
+    <!-- OUR BLOCKS -->
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Obsidian Frontier</DisplayName>
+      <Name>PS_Custom_Blocks</Name>
+      <ItemIds>
+	    <string>LargeMissileTurret/OKI50mmAG</string>
+  		<string>LargeGatlingTurret/OKI50mmSG</string>
+	    <string>Gyro/EncasedGyroscope</string>   
+        <string>Gyro/EncasedGyroscopeSmall</string>
+	    <string>Thrust/LargeTurboFan_Large</string>
+        <string>Thrust/SmallTurboFan_Large</string>
+        <string>OxygenGenerator/FuelRefiner</string>
+        <string>OxygenTank/HCFuelTank</string>
+		<string>Thrust/LargeBlockLargeThriThrust</string>
+	    <string>LargeGatlingTurret/LongRangeGatlingTurretV3</string>
+	    <string>LargeGatlingTurret/OKI230mmBC</string>
+        <string>SmallGatlingGun/EliteSmallGatlingGun</string>
+        <string>SmallMissileLauncher/SiegeLargeMissileLauncher</string>
+		<string>Thrust/IrgathLargeBlockSmallThrust</string>
+		<string>Thrust/IrgathLargeBlockLargeThrust</string>
+		<string>JumpDrive/AdvLargeJumpDrive</string>
+		<string>Refinery/LargeRefinery</string>	
+		<string>Drill/LargeBlockLargeDrill</string>
+        <string>Drill/SmallBlockLargeDrill</string>
+        <string>Drill/LargeBlockMediumDrill</string>
+        <string>Drill/SmallBlockMediumDrill</string>
+        <string>Drill/LargeBlockSmallDrill</string>
+        <string>Drill/SmallBlockSmallDrill</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorSlope</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorCorner</string>
+		<string>CubeBlock/SuperLargeHeavyBlockArmorCornerInv</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorBlock</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorSlope</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorCorner</string>
+		<string>CubeBlock/SuperSmallHeavyBlockArmorCornerInv</string>
+		<string>LargeMissileTurret/OKI230mmBAT</string>
+		<string>ShipWelder/TwinWelder</string>
+        <string>ShipWelder/TwinSmallWelder</string>
+      </ItemIds>
+    </Category>
+	<!--Large Blocks -->
+   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+	    <string>Gyro/EncasedGyroscope</string>
+		<string>ShipWelder/TwinWelder</string>
+		<string>Thrust/IrgathLargeBlockSmallThrust</string>
+		<string>Thrust/IrgathLargeBlockLargeThrust</string>
+		<string>JumpDrive/AdvLargeJumpDrive</string>
+		<string>Refinery/LargeRefinery</string>
+		<string>Drill/LargeBlockLargeDrill</string>
+        <string>Drill/LargeBlockMediumDrill</string>
+        <string>Drill/LargeBlockSmallDrill</string>
+		<string>LargeMissileTurret/OKI50mmAG</string>
+      </ItemIds>
+    </Category>
+	<!--Small Blocks-->
+   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+	    <string>Gyro/EncasedGyroscopeSmall</string>
+		<string>ShipWelder/TwinSmallWelder</string>
+		<string>LargeGatlingTurret/OKI50mmSG</string>
+	    <string>Drill/SmallBlockLargeDrill</string>
+		<string>Drill/SmallBlockMediumDrill</string>
+        <string>Drill/SmallBlockSmallDrill</string>
+        <string>Thrust/IrgathSmallBlockSmallThrust</string>
+        <string>Thrust/IrgathSmallBlockLargeThrust</string>
+	</ItemIds>
+    </Category>
+	<!-- Production Blocks -->
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <ItemIds>
+        <string>Refinery/LargeRefinery</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

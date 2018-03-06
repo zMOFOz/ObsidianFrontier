@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+  	<Blueprint>
+		  <Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>OKI50mmAmmo</SubtypeId>
+		  </Id>
+		  <DisplayName>50x450mm AP Shells (5x)</DisplayName>
+		  <Icon>icons\OKI50mmAGAmmo.dds</Icon>
+		  <Prerequisites>
+			<Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+			<Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+			<Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+		  </Prerequisites>
+		  <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="OKI50mmAmmo" />
+		  <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint> 
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TrilithiumToFuel</SubtypeId>
+      </Id>
+      <DisplayName>Hydro-Carbon Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Trilithium" />
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuperComputer</SubtypeId>
+      </Id>
+      <DisplayName>Super Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\super_computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Thorium" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SuperComputer" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThoriumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Thorium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Thorium" />
+      </Prerequisites>
+      <Result Amount="0.003" TypeId="Ingot" SubtypeId="Thorium" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI230mmBatAmmo</SubtypeId>
+      </Id>
+      <DisplayName>230x920mm HV Shell</DisplayName>
+      <Icon>icons\HV.dds</Icon>
+      <Prerequisites>
+        <Item Amount=".4" TypeId="Ingot" SubtypeId="Thorium" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI230mmBatAmmo" />
+      <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ReactiveSteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>Reactive Steel Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Reactive_steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount=".3" TypeId="Ingot" SubtypeId="Thorium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ReactiveSteelPlate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_5p56x45mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3.2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="120" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10.5" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LongRange30mm</SubtypeId>
+      </Id>
+      <DisplayName>Long Range Ammo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\LongRange30mm.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LongRange30mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DepletedUraniumRounds</SubtypeId>
+      </Id>
+      <DisplayName>Depleted Uranium Ammo Container</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\DepletedUraniumBox.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10.5" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount=".05" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="DepletedUraniumRounds" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mm</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Missile200mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+        <Item Amount="220" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="28" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="2.0" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="1.6" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="20.8" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiegeMissile</SubtypeId>
+      </Id>
+      <DisplayName>Siege Missile</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Siege.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1200" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="140" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="104" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SiegeMissile" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OKI230mmAmmo</SubtypeId>
+      </Id>
+      <DisplayName>230x920mm HE Shell</DisplayName>
+      <Icon>icons\OKI230mmBCAmmo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.8" TypeId="Ingot" SubtypeId="Thorium" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="OKI230mmAmmo" />
+      <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
