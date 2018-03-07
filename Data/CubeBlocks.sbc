@@ -1,6 +1,95 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+      <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallJumpDrive</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\JumpDrive.mwm</Model>
+      <Components>
+	    <Component Subtype="SuperComputer" Count="60" />
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="25" />
+        <Component Subtype="GravityGenerator" Count="10" />
+        <Component Subtype="Detector" Count="10" />
+        <Component Subtype="PowerCell" Count="60" />
+        <Component Subtype="Superconductor" Count="500" />
+        <Component Subtype="Computer" Count="150" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JumpDrive</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <RequiredPowerInput>3.2</RequiredPowerInput>
+      <PowerNeededForJump>0.21</PowerNeededForJump>
+      <MaxJumpDistance>25000</MaxJumpDistance>
+      <MaxJumpMass>900000</MaxJumpMass>
+  </Definition>
+  	<Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>Eikester_SB_SmallMedBay</SubtypeId>
+      </Id>
+      <DisplayName>Medical Station</DisplayName>
+      <Icon>Textures\medbay_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="3" />
+      <ModelOffset x="1" y="0" z="0" />
+      <Model>Models\SmallMedBay.mwm</Model>
+      <IdleSound>BlockMedical</IdleSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="3" />
+        <Component Subtype="SmallTube" Count="5" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Medical" Count="4" />
+        <Component Subtype="InteriorPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+	  <MountPoints>
+        <MountPoint Side="Left" StartX="0.2" StartY="0.1" EndX="2.8" EndY="4.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\SmallMedBay_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Eikester_SmallMedBay</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
   <Definition>
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -6196,6 +6285,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
       <Components>
+	    <Component Subtype="SuperComputer" Count="500" />
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="LargeTube" Count="40" />
         <Component Subtype="MetalGrid" Count="50" />
@@ -6206,7 +6296,6 @@
         <Component Subtype="Computer" Count="300" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="SuperComputer" Count="500" />
       </Components>
       <CriticalComponent Subtype="SuperComputer" Index="0" />
       <MountPoints>

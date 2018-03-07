@@ -105,6 +105,9 @@
 		<string>LargeMissileTurret/OKI230mmBAT</string>
 		<string>ShipWelder/TwinWelder</string>
         <string>ShipWelder/TwinSmallWelder</string>
+		<string>MedicalRoom/Eikester_SB_SmallMedicalStation</string>
+		<string>MedicalRoom/Eikester_SB_SmallMedBay</string>
+		<string>JumpDrive/SmallJumpDrive</string>
       </ItemIds>
     </Category>
 	<!--Large Blocks -->
