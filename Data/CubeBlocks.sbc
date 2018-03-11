@@ -6,7 +6,7 @@
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>SmallJumpDrive</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+      <DisplayName>Small Ship JumpDrive</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -40,7 +40,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDrive</BlockPairName>
+      <BlockPairName>SmallJumpDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
