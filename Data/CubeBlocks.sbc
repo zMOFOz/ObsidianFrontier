@@ -1158,7 +1158,7 @@
       <MaxPowerConsumption>10</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>48000000</ForceMagnitude>
+      <ForceMagnitude>88000000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>3.15</FlameLengthScale>
@@ -4488,7 +4488,7 @@
       </BlockVariants>
       <DeformationRatio>0.10</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>170</BuildTimeSeconds>
+      <BuildTimeSeconds>340</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
     </Definition>
     <Definition>
@@ -4621,7 +4621,7 @@
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.10</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>148</BuildTimeSeconds>
+      <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
     </Definition>
     <Definition>
@@ -4632,7 +4632,7 @@
       <DisplayName>Thorium Reactive Heavy Armor Corner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner.dds</Icon>
       <CubeSize>Large</CubeSize>
-<GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -4725,7 +4725,7 @@
       <MirroringZ>YHalfY</MirroringZ>
       <DeformationRatio>0.10</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>148</BuildTimeSeconds>
+      <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
     </Definition>
     <Definition>
@@ -4887,7 +4887,7 @@
       <MirroringZ>YHalfZ</MirroringZ>
       <DeformationRatio>0.10</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>148</BuildTimeSeconds>
+      <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
     </Definition>
     <Definition>
@@ -5064,7 +5064,7 @@
       </Skeleton>
       <BlockPairName>SuperHeavyArmorBlock</BlockPairName>
       <DeformationRatio>0.016</DeformationRatio>
-      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
     </Definition>
@@ -5076,7 +5076,7 @@
       <DisplayName>Thorium Reactive Heavy Armor Slope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope.dds</Icon>
       <CubeSize>Small</CubeSize>
-<GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -5193,7 +5193,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.016</DeformationRatio>
-      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
     </Definition>
@@ -5289,7 +5289,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
       <DeformationRatio>0.016</DeformationRatio>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
     </Definition>
@@ -5443,7 +5443,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
       <DeformationRatio>0.016</DeformationRatio>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
     </Definition>
