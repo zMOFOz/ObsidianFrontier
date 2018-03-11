@@ -33,7 +33,7 @@
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Sand</MaterialTypeName>
       <MinedOre>Trilithium</MinedOre>
-      <MinedOreRatio>0.2</MinedOreRatio>
+      <MinedOreRatio>0.5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <IsIndestructible>false</IsIndestructible>

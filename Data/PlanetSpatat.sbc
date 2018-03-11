@@ -23,14 +23,14 @@
       <OreMappings>
         <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
         <!-- Fe 1-->
-        <Ore Value="1" Type="Iron_02" Start="10" Depth="3" />
-        <Ore Value="4" Type="Iron_02" Start="12" Depth="3" />
-        <Ore Value="8" Type="Iron_02" Start="14" Depth="4" />
+        <Ore Value="1" Type="Trilithium_01" Start="10" Depth="3" />
+        <Ore Value="4" Type="Trilithium_01" Start="12" Depth="3" />
+        <Ore Value="8" Type="Trilithium_01" Start="14" Depth="4" />
 
         <!-- Fe 2-->
-        <Ore Value="12" Type="Iron_02" Start="25" Depth="5" />
-        <Ore Value="16" Type="Iron_02" Start="28" Depth="5" />
-        <Ore Value="20" Type="Iron_02" Start="31" Depth="8" />
+        <Ore Value="12" Type="Trilithium_01" Start="25" Depth="5" />
+        <Ore Value="16" Type="Trilithium_01" Start="28" Depth="5" />
+        <Ore Value="20" Type="Trilithium_01" Start="31" Depth="8" />
 
         <!-- Ni 1-->
         <Ore Value="24" Type="Trilithium_01" Start="10" Depth="4" />
