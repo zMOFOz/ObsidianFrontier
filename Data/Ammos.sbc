@@ -110,7 +110,7 @@
         <SubtypeId>Missile</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>200</DesiredSpeed>
+        <DesiredSpeed>400</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
         <MaxTrajectory>800</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
