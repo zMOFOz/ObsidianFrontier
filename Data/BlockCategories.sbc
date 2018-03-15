@@ -108,6 +108,7 @@
 		<string>MedicalRoom/Eikester_SB_SmallMedicalStation</string>
 		<string>MedicalRoom/Eikester_SB_SmallMedBay</string>
 		<string>JumpDrive/SmallJumpDrive</string>
+		<string>Thrust/ReactorStack</string>
       </ItemIds>
     </Category>
 	<!--Large Blocks -->
