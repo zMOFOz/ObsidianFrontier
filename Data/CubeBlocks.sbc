@@ -4642,7 +4642,7 @@
           <SubtypeId>SuperLargeHeavyBlockArmorCornerInv</SubtypeId>
         </BlockVariant>   
       </BlockVariants>
-      <DeformationRatio>0.10</DeformationRatio>
+      <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>340</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -4775,7 +4775,7 @@
       <BlockPairName>SuperHeavyArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.10</DeformationRatio>
+      <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -4879,7 +4879,7 @@
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
-      <DeformationRatio>0.10</DeformationRatio>
+      <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -5041,7 +5041,7 @@
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
-      <DeformationRatio>0.10</DeformationRatio>
+      <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>296</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
