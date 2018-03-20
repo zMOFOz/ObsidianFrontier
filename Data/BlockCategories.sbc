@@ -30,6 +30,8 @@
       <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
       <Name>ShipWeaponsTools</Name>
       <ItemIds>
+	    <string>ShipGrinder/TwinGrinder</string>
+		<string>ShipGrinder/TwinSmallGrinder</string>
         <string>Drill/LargeBlockLargeDrill</string>
         <string>Drill/SmallBlockLargeDrill</string>
         <string>Drill/LargeBlockMediumDrill</string>
@@ -72,6 +74,15 @@
       <DisplayName>Obsidian Frontier</DisplayName>
       <Name>PS_Custom_Blocks</Name>
       <ItemIds>
+	    <string>vj_armorTube</string>
+        <string>vj_armorTubeCurved</string>
+        <string>vj_heavyArmorTube</string>
+	    <string>vj_heavyArmorTubeCurved</string>
+	    <string>vj_heavyArmorConveyor</string>
+	    <string>vj_conveyorHub</string>
+	    <string>ShipGrinder/TwinGrinder</string>
+	    <string>MedicalRoom/Eikester_LB_SmallMedicalStation</string>
+		<string>MedicalRoom/Eikester_LB_SmallMedBay</string>
 	    <string>LargeMissileTurret/OKI50mmAG</string>
   		<string>LargeGatlingTurret/OKI50mmSG</string>
 	    <string>Gyro/EncasedGyroscope</string>   
@@ -121,6 +132,7 @@
       <Name>LargeBlocks</Name>
       <ItemIds>
 	    <string>Gyro/EncasedGyroscope</string>
+		<string>ShipGrinder/TwinGrinder</string>
 		<string>ShipWelder/TwinWelder</string>
 		<string>Thrust/IrgathLargeBlockSmallThrust</string>
 		<string>Thrust/IrgathLargeBlockLargeThrust</string>
@@ -141,6 +153,7 @@
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>
+	    <string>ShipGrinder/TwinSmallGrinder</string>
 	    <string>Gyro/EncasedGyroscopeSmall</string>
 		<string>ShipWelder/TwinSmallWelder</string>
 		<string>LargeGatlingTurret/OKI50mmSG</string>

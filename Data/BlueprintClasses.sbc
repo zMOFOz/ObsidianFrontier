@@ -25,6 +25,10 @@
 	
 	
   <BlueprintClassEntries>
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ShipGrinder/TwinGrinder" /> 
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="ShipGrinder/TwinSmallGrinder" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="MedicalRoom/Eikester_LB_SmallMedBay" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="MedicalRoom/Eikester_LB_SmallMedicalStation" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/ReactorStack" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="MedicalRoom/Eikester_SB_SmallMedicalStation" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="MedicalRoom/Eikester_SB_SmallMedBay" />
