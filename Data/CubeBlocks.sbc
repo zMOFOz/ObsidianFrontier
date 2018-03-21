@@ -1,6 +1,288 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallAtmosphericHoverEngine_SmallBlockV2</SubtypeId>
+      </Id>
+      <DisplayName>HoverEngineSmallCiv</DisplayName>
+      <Icon>Textures\Icons\AtmosphericHoverEngine_1x1x1_Civ.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Small.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="GravityGenerator" Count="1" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>        
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+     <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeAtmosphericHoverEngine_SmallBlockV2</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+       <BlockPairName>SmallHoverEngineV2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>88000</ForceMagnitude>
+      <MaxPowerConsumption>0.21</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <PrimarySound>SmShipSmJetAtmo</PrimarySound>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallAtmosphericHoverEngine_LargeBlockV2</SubtypeId>
+      </Id>
+      <DisplayName>HoverEngineSmallCiv</DisplayName>
+      <Icon>Textures\Icons\AtmosphericHoverEngine_1x1x1_Civ.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="GravityGenerator" Count="5" />
+        <Component Subtype="Motor" Count="15" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>               
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\AtmosphericHoverEngine_1x1x1_Model_V2\AtmosphericHoverEngine_1x1x1_Model_V2_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeAtmosphericHoverEngine_LargeBlockV2</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>SmallHoverEngineV2</BlockPairName>
+
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>462000</ForceMagnitude>
+      <MaxPowerConsumption>0.708</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeAtmosphericHoverEngine_SmallBlockV2</SubtypeId>
+      </Id>
+      <DisplayName>HoverEngineLargeCiv</DisplayName>
+      <Icon>Textures\Icons\AtmosphericHoverEngine_3x3x1_Civ.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Small.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="8" />
+        <Component Subtype="GravityGenerator" Count="5" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+ 
+      <BlockPairName>LargeHoverEngineV2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>449000</ForceMagnitude>
+      <MaxPowerConsumption>0.72</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <PrimarySound>SmShipLrgJetAtmo</PrimarySound>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeAtmosphericHoverEngine_LargeBlockV2</SubtypeId>
+      </Id>
+      <DisplayName>HoverEngineLargeCiv</DisplayName>
+      <Icon>Textures\Icons\AtmosphericHoverEngine_3x3x1_Civ.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1000" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="MetalGrid" Count="40" />
+        <Component Subtype="GravityGenerator" Count="65" />
+        <Component Subtype="Motor" Count="60" />        
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SteelPlate" Count="300" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\AtmosphericHoverEngine_3x3x1_Model_V2\AtmosphericHoverEngine_3x3x1_Model_V2_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>LargeHoverEngineV2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>5940000</ForceMagnitude>
+      <MaxPowerConsumption>4.908</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+    </Definition>
   <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
