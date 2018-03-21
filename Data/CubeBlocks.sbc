@@ -6,7 +6,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallAtmosphericHoverEngine_SmallBlockV2</SubtypeId>
       </Id>
-      <DisplayName>HoverEngineSmallCiv</DisplayName>
+      <DisplayName>HoverEngineSmall</DisplayName>
       <Icon>Textures\Icons\AtmosphericHoverEngine_1x1x1_Civ.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -77,7 +77,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallAtmosphericHoverEngine_LargeBlockV2</SubtypeId>
       </Id>
-      <DisplayName>HoverEngineSmallCiv</DisplayName>
+      <DisplayName>HoverEngineSmall</DisplayName>
       <Icon>Textures\Icons\AtmosphericHoverEngine_1x1x1_Civ.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -152,7 +152,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeAtmosphericHoverEngine_SmallBlockV2</SubtypeId>
       </Id>
-      <DisplayName>HoverEngineLargeCiv</DisplayName>
+      <DisplayName>HoverEngineLarge</DisplayName>
       <Icon>Textures\Icons\AtmosphericHoverEngine_3x3x1_Civ.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -222,7 +222,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeAtmosphericHoverEngine_LargeBlockV2</SubtypeId>
       </Id>
-      <DisplayName>HoverEngineLargeCiv</DisplayName>
+      <DisplayName>HoverEngineLarge</DisplayName>
       <Icon>Textures\Icons\AtmosphericHoverEngine_3x3x1_Civ.dds</Icon>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
