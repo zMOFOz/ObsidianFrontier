@@ -74,8 +74,6 @@
       <DisplayName>Obsidian Frontier</DisplayName>
       <Name>PS_Custom_Blocks</Name>
       <ItemIds>
-	    <string>Thrust/SmallAtmosphericHoverEngine_SmallBlockV2</string>
-		<string>Thrust/SmallAtmosphericHoverEngine_LargeBlockV2</string>
 	    <string>vj_armorTube</string>
         <string>vj_armorTubeCurved</string>
         <string>vj_heavyArmorTube</string>
