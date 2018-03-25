@@ -1961,7 +1961,7 @@
       <EdgeType>Light</EdgeType>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>200</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>167</IceConsumptionPerSecond>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
@@ -1976,7 +1976,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>TrilithiumFuel</SubtypeId>
           </Id>
-          <IceToGasRatio>150</IceToGasRatio>
+          <IceToGasRatio>1</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
