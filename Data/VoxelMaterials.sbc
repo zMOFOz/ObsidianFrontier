@@ -29,7 +29,7 @@
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>Trilithium_01</SubtypeId>
       </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <MaterialTypeName>Sand</MaterialTypeName>
       <MinedOre>Trilithium</MinedOre>
