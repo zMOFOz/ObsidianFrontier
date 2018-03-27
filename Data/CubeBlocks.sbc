@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-<<<<<<< HEAD
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -284,8 +283,6 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <Public>true</Public>
     </Definition>
-=======
->>>>>>> parent of 1c4ef01... Hover Engines
   <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
@@ -1964,7 +1961,7 @@
       <EdgeType>Light</EdgeType>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <IceConsumptionPerSecond>167</IceConsumptionPerSecond>
+      <IceConsumptionPerSecond>200</IceConsumptionPerSecond>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
@@ -1979,7 +1976,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>TrilithiumFuel</SubtypeId>
           </Id>
-          <IceToGasRatio>1</IceToGasRatio>
+          <IceToGasRatio>150</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
