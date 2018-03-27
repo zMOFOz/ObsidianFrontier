@@ -74,6 +74,8 @@
       <DisplayName>Obsidian Frontier</DisplayName>
       <Name>PS_Custom_Blocks</Name>
       <ItemIds>
+	    <string>Reactor/ThoriumReactor</string>
+		<string>Reactor/LargeThoriumReactor</string>
 	    <string>Thrust/SmallAtmosphericHoverEngine_SmallBlockV2</string>
 		<string>Thrust/SmallAtmosphericHoverEngine_LargeBlockV2</string>
 	    <string>ShipGrinder/TwinGrinder</string>

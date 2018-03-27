@@ -79,6 +79,130 @@
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
     </Definition>
+	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>ThoriumReactor</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\thorium-reactor-s.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Thorium_Reactor_Small_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Reactor" Count="30" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+		<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Bottom" StartX="0.16" StartY="0.16" EndX="0.84" EndY="0.84" />
+		<MountPoint Side="Top" StartX="0.12" StartY="0.12" EndX="0.88" EndY="0.88" />
+      </MountPoints>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Thorium_Reactor_Small_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\Thorium_Reactor_Small_Large_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Thorium_Reactor_Small_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Stone Reactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <MaxPowerOutput>10</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+	    <TypeId>Ingot</TypeId>
+        <SubtypeId>Thorium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+	
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LargeThoriumReactor</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Large Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\thorium-reactor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Thorium_Reactor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="800" />
+        <Component Subtype="Construction" Count="70" />
+        <Component Subtype="MetalGrid" Count="40" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Reactor" Count="2000" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Back" StartX="0.70" StartY="2.92" EndX="2.30" EndY="2.99" />
+		<MountPoint Side="Back" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+		<MountPoint Side="Left" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+		<MountPoint Side="Right" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+		<MountPoint Side="Bottom" StartX="0.02" StartY="0.02" EndX="2.98" EndY="2.98" />
+		<MountPoint Side="Top" StartX="0.02" StartY="0.02" EndX="2.98" EndY="2.98" />
+		<MountPoint Side="Front" StartX="0.70" StartY="0.00" EndX="2.30" EndY="0.09" />
+		<MountPoint Side="Front" StartX="0.70" StartY="2.90" EndX="2.30" EndY="2.99" />
+		<MountPoint Side="Left" StartX="0.71" StartY="0.00" EndX="2.29" EndY="0.09" />
+		<MountPoint Side="Left" StartX="0.71" StartY="2.91" EndX="2.29" EndY="2.99" />
+		<MountPoint Side="Right" StartX="0.70" StartY="2.92" EndX="2.30" EndY="2.99" />
+		<MountPoint Side="Right" StartX="0.70" StartY="0.01" EndX="2.30" EndY="0.08" />
+		<MountPoint Side="Back" StartX="0.70" StartY="0.01" EndX="2.30" EndY="0.08" />
+      </MountPoints>
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Thorium_Reactor_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\Thorium_Reactor_Large_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Thorium_Reactor_Large_Constr3.mwm" />
+
+      </BuildProgressModels>
+      <BlockPairName>Thorium Reactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>300</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Thorium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
       <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
