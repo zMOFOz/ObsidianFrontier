@@ -76,12 +76,6 @@
       <ItemIds>
 	    <string>Thrust/SmallAtmosphericHoverEngine_SmallBlockV2</string>
 		<string>Thrust/SmallAtmosphericHoverEngine_LargeBlockV2</string>
-	    <string>vj_armorTube</string>
-        <string>vj_armorTubeCurved</string>
-        <string>vj_heavyArmorTube</string>
-	    <string>vj_heavyArmorTubeCurved</string>
-	    <string>vj_heavyArmorConveyor</string>
-	    <string>vj_conveyorHub</string>
 	    <string>ShipGrinder/TwinGrinder</string>
 	    <string>MedicalRoom/Eikester_LB_SmallMedicalStation</string>
 		<string>MedicalRoom/Eikester_LB_SmallMedBay</string>
