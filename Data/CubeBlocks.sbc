@@ -79,6 +79,1461 @@
       <DamageEffectId>213</DamageEffectId>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
     </Definition>
+	<!-- Armor Ramps -->
+	 <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CockpitArmorCorner4x1x1Right</SubtypeId>
+      </Id>
+      <DisplayName>AZC Right Cockpit Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CockpitCorner_4x1x1_right_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\CockpitCorner4x1x1_right_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\CockpitCorner4x1x1_right_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>CockpitCorner4x1x1Right</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+      <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>CockpitArmorCorner4x1x1Left</SubtypeId>
+      </Id>
+      <DisplayName>AZC Left Cockpit Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CockpitCorner_4x1x1_left_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\CockpitCorner4x1x1_left_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\CockpitCorner4x1x1_left_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>CockpitCorner4x1x1Left</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>		
+ 
+     <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="28" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorRamp4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorRamp4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorInvCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorInvCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="42" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+ <!-- 5 blocks ramps -->
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+ 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorRamp5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorRamp5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="42" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorInvCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorInvCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="48" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+ <!-- 6 blocks ramps -->
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Corner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Corner_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="42" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+ 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorRamp6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorRamp6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor Ramp 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Ramp_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="48" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorRamp6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallArmorInvCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeArmorInvCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Armor InvCorner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\InvCorner_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="54" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ArmorInvCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+<!-- HEAVY ARMOR SECTION -->
+ <!-- 4 blocks ramps -->
+ 
+      <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyCockpitArmorCorner4x1x1Right</SubtypeId>
+      </Id>
+      <DisplayName>Heavy AZC Right Cockpit Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCockpitCorner_4x1x1_right_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\CockpitCorner4x1x1_right_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\CockpitCorner4x1x1_right_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyCockpitCorner4x1x1Right</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+      <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyCockpitArmorCorner4x1x1Left</SubtypeId>
+      </Id>
+      <DisplayName>Heavy AZC Left Cockpit Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCockpitCorner_4x1x1_left_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\CockpitCorner4x1x1_left_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\CockpitCorner4x1x1_left_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyCockpitCorner4x1x1Left</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="115" />
+        <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+ 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorRamp4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorRamp4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorInvCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_4x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner4x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner4x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorInvCorner4x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 4x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_4x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="4" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner4x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="4.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="4.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner4x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner4x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+ <!-- 5 blocks ramps -->
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+ 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorRamp5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorRamp5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="160" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorInvCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_5x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner5x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner5x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorInvCorner5x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 5x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_5x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="5" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner5x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="175" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner5x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner5x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+
+ <!-- 6 blocks ramps -->
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorCorner6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Corner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorCorner6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="165" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorCorner6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
+ 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorRamp6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorRamp6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorRamp6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor Ramp 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRamp_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorRamp6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+	  <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="180" />
+        <Component Subtype="MetalGrid" Count="70" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorRamp6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorRamp6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavySmallArmorInvCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_6x1x1_icon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\ArmorInvCorner6x1x1_Small.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="MetalGrid" Count="3" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner6x1x1_Small.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>	
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HeavyLargeArmorInvCorner6x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Armor InvCorner 6x1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner_6x1x1_icon.dds</Icon>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>TriangleMesh</BlockTopology>
+	  <Size x="1" y="1" z="6" />
+	  <ModelOffset x="0" y="0" z="0" />
+  	  <Model>Models\ArmorInvCorner6x1x1_Large.mwm</Model>
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="6.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="6.00" />
+	  </MountPoints>
+	<MirroringX>MinusHalfZ</MirroringX>
+	<MirroringY>HalfZ</MirroringY>
+	<MirroringZ>XHalfZ</MirroringZ>
+      <Components>
+        <Component Subtype="SteelPlate" Count="195" />
+        <Component Subtype="MetalGrid" Count="85" />
+        <Component Subtype="SteelPlate" Count="45" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\ArmorInvCorner6x1x1_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HeavyArmorInvCorner6x1x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DisassembleRatio>2.5</DisassembleRatio>
+    </Definition>
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
