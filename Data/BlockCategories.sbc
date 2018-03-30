@@ -120,56 +120,6 @@
 		<string>Thrust/ReactorStack</string>
       </ItemIds>
     </Category>
-	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
-      <DisplayName>Armor Ramps</DisplayName>
-      <Name>Armor Ramps Mod</Name>
-      <ItemIds>
-	    <string>CubeBlock/CockpitArmorCorner4x1x1Right</string>
-        <string>CubeBlock/CockpitArmorCorner4x1x1Leftt</string>
-        <string>CubeBlock/SmallArmorCorner4x1x1</string>
-        <string>CubeBlock/LargeArmorCorner4x1x1</string>
-        <string>CubeBlock/SmallArmorRamp4x1x1</string>
-        <string>CubeBlock/LargeArmorRamp4x1x1</string>		
-		<string>CubeBlock/SmallArmorInvCorner4x1x1</string>
-        <string>CubeBlock/LargeArmorInvCorner4x1x1</string> 
-		<string>CubeBlock/SmallArmorCorner5x1x1</string>
-        <string>CubeBlock/LargeArmorCorner5x1x1</string>
-		<string>CubeBlock/SmallArmorRamp5x1x1</string>
-        <string>CubeBlock/LargeArmorRamp5x1x1</string>
-		<string>CubeBlock/SmallArmorInvCorner5x1x1</string>
-        <string>CubeBlock/LargeArmorInvCorner5x1x1</string>		
-		<string>CubeBlock/SmallArmorCorner6x1x1</string>
-        <string>CubeBlock/LargeArmorCorner6x1x1</string>
-		<string>CubeBlock/SmallArmorRamp6x1x1</string>
-        <string>CubeBlock/LargeArmorRamp6x1x1</string>
-		<string>CubeBlock/SmallArmorInvCorner6x1x1</string>
-        <string>CubeBlock/LargeArmorInvCorner6x1x1</string>       
-		<string>CubeBlock/HeavyCockpitArmorCorner4x1x1Right</string>
-        <string>CubeBlock/HeavyCockpitArmorCorner4x1x1Leftt</string>
-		<string>CubeBlock/HeavySmallArmorCorner4x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorCorner4x1x1</string>
-		<string>CubeBlock/HeavySmallArmorRamp4x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorRamp4x1x1</string>
-		<string>CubeBlock/HeavySmallArmorInvCorner4x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorInvCorner4x1x1</string>
-        <string>CubeBlock/HeavySmallArmorCorner5x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorCorner5x1x1</string>
-		<string>CubeBlock/HeavySmallArmorRamp5x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorRamp5x1x1</string>
-		<string>CubeBlock/HeavySmallArmorInvCorner5x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorInvCorner5x1x1</string>		
-        <string>CubeBlock/HeavySmallArmorCorner6x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorCorner6x1x1</string>
-		<string>CubeBlock/HeavySmallArmorRamp6x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorRamp6x1x1</string>
-		<string>CubeBlock/HeavySmallArmorInvCorner6x1x1</string>
-        <string>CubeBlock/HeavyLargeArmorInvCorner6x1x1</string>		
-      </ItemIds>
-    </Category>
 	<!--Large Blocks -->
    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
