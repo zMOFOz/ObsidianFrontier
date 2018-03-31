@@ -1534,6 +1534,65 @@
       <DeformationRatio>0.2</DeformationRatio>
       <DisassembleRatio>2.5</DisassembleRatio>
     </Definition>
+	<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+      <Id>
+        <TypeId>AirtightHangarDoor</TypeId>
+        <SubtypeId>Eikester_BlastDoor</SubtypeId>
+      </Id>
+      <DisplayName>Blast Door</DisplayName>
+	  <public>false</public>
+      <Icon>Textures\GUI\BlastDoor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="12" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="6" y="3" z="0" />
+      <Model>Models\BlastDoor_Base.mwm</Model>
+      <Sound>BlockRotor</Sound>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1500" />
+        <Component Subtype="Construction" Count="130" />
+        <Component Subtype="SmallTube" Count="180" />
+        <Component Subtype="Motor" Count="32" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Construction" Count="150" />
+        <Component Subtype="SteelPlate" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="7" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="7" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="12" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="12" EndY="1" />
+		
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="7" />
+		<MountPoint Side="Front" StartX="11" StartY="0" EndX="12" EndY="7" />
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="12" EndY="1" />
+		<MountPoint Side="Front" StartX="0" StartY="6" EndX="12" EndY="7" />
+		
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="7" />
+		<MountPoint Side="Back" StartX="11" StartY="0" EndX="12" EndY="7" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="12" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="6" EndX="12" EndY="7" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\BlastDoor_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\BlastDoor_Construction2.mwm" />
+		<Model BuildPercentUpperBound="0.75" File="Models\BlastDoor_Construction3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\BlastDoor_Construction4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Eikester_BlastDoor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <PowerConsumptionIdle>0.00008</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.008</PowerConsumptionMoving>
+	  <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <OpeningSpeed>0.2</OpeningSpeed>
+	  <SubpartMovementDistance>11.25</SubpartMovementDistance>
+    </Definition>
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1572,7 +1631,7 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>35</BuildTimeSeconds>
-      <MaxPowerOutput>10</MaxPowerOutput>
+      <MaxPowerOutput>90</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1641,7 +1700,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>300</MaxPowerOutput>
+      <MaxPowerOutput>900</MaxPowerOutput>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>

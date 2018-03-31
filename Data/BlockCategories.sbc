@@ -74,6 +74,7 @@
       <DisplayName>Obsidian Frontier</DisplayName>
       <Name>PS_Custom_Blocks</Name>
       <ItemIds>
+	    <string>AirtightHangarDoor/Eikester_BlastDoor</string>
 	    <string>Reactor/ThoriumReactor</string>
 		<string>Reactor/LargeThoriumReactor</string>
 	    <string>Thrust/SmallAtmosphericHoverEngine_SmallBlockV2</string>
